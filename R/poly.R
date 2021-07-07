@@ -45,5 +45,3 @@ tmp =  cbind(tmp_inter,tmp_pol)
 drop = colnames(df)
 tmp_final = tmp[,!(names(tmp) %in% drop)]
 }
-
-       
