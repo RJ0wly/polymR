@@ -44,4 +44,8 @@ tmp_inter = as.data.frame(tmp_inter)
 tmp =  cbind(tmp_inter,tmp_pol)
 drop = colnames(df)
 tmp_final = tmp[,!(names(tmp) %in% drop)]
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 4ca93d906d177c83b6f820bc8bd25a9e3c5191bd

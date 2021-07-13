@@ -4,7 +4,7 @@
 \alias{polynomial_features}
 \title{polynomial_features}
 \usage{
-polynomial_features(dataframe,degree)
+polynomial_features(df,degree)
 }
 \arguments{
 \item{df}{Dataframe, containing the features of interest.}
@@ -20,5 +20,5 @@ degree.
 val1 = rnorm(50)
 val2 = rnorm(50)
 df = as.data.frame(cbind(val1,val2))
-df_poly = polynomialFeatures(df,2)
+df_poly = polynomial_features(df,2)
 }
