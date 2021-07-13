@@ -23,6 +23,6 @@ not all model available.}
 i.e. each column of x has mean 0 and standard deviation 1.}
 }
 \description{
-Generate a list from selected covariates for each bootstrap applied to a
+Generate a list of selected covariates for each bootstrap applied to a
 logistic regression or cox lasso. (inspire from SparseLearner package)
 }
