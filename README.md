@@ -1,5 +1,5 @@
 # polymR
-An easy to use polynomial function for R
+An easy to use polynomial function for R and Boostrap Lasso Selection.
 
 How to install the library :
 
